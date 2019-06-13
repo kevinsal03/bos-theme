@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Replace default cinnamon theme with bOS theme
+
+if [ ! -f "/usr/share/cinnamon/theme" ]; then
+ echo "bOS theme not installed!";
+ echo "Copying bOS theme into cinnamon default theme location"
+ cp -R /usr/share/cinnamon/themes/barclayOS/cinnamon/* /usr/share/cinnamon/theme/
+fi
+
+# setting theme to cinnamon
+gsettings set org.cinnamon.theme name "cinnamon"

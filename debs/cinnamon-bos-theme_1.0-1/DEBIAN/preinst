@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Preparing to install theme!"
+
+#if [ -f "/usr/share/cinnamon/theme" ]; then
+# echo "Default cinnamon theme exists!";
+ mkdir /usr/share/cinnamon/old-theme
+ mv /usr/share/cinnamon/theme/* /usr/share/cinnamon/old-theme
+#fi

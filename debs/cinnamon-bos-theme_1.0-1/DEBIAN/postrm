@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "restoring default theme from old-theme"
+mv /usr/share/cinnamon/old-theme/* /usr/share/cinnamon/theme
+
+
+# setting theme to cinnamon
+gsettings set org.cinnamon.theme name "cinnamon"

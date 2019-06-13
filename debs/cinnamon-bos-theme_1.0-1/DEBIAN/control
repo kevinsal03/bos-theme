@@ -1,0 +1,8 @@
+Package: cinnamon-bos-theme
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: cinnamon
+Maintainer: Kevin Salvatorelli <kevin@kevsal.me>
+Description: Default theme for barclayOS in Cinnamon

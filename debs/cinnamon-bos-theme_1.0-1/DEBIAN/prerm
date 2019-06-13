@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "Removing current default Cinnamon theme"
+rm -rf /usr/share/cinnamon/theme/*
+
+echo "removing bOS theme"
+rm -rf /usr/share/cinnamon/themes/barclayOS
